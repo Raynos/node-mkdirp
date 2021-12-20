@@ -1,5 +1,11 @@
 # mkdirp
 
+**Deprecated:** recursive directory making is in node core.
+
+```js
+await fs.promises.mkdir('/tmp/foo/bar/baz', { recursive: true })
+```
+
 Like `mkdir -p`, but in node.js!
 
 [![build status](https://secure.travis-ci.org/substack/node-mkdirp.png)](http://travis-ci.org/substack/node-mkdirp)
